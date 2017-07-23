@@ -1,3 +1,5 @@
+__author__ =  'CARA'
+
 import random
 cdk = []
 for x in range(200):
