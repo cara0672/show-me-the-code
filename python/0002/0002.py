@@ -23,7 +23,7 @@ def save():
 		   conn.rollback()
 	conn.close()
 if __name__  ==  ' __main__ ':
-    cdk = []
+	cdk = []
 	conn = pymysql.connect(user='root',passwd='',db='cdk_base')
 	cur = conn.cursor()
 	save()
